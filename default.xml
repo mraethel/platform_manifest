@@ -965,8 +965,8 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/google/aemu" name="platform/hardware/google/aemu" groups="pdk" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
-  <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" />
-  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" />
+  <project path="hardware/google/av" name="platform_hardware_google_av" groups="pdk" remote="grapheneos" revision="14121f370ff1ba616ea91fc45c60a4a66fec3b14" />
+  <project path="hardware/google/camera" name="platform_hardware_google_camera" groups="pdk" remote="grapheneos" revision="445422d2669221d4a02f8834e0b09b997e0653f5" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
   <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" groups="pdk" />
