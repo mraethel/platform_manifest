@@ -6,10 +6,10 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="grapheneos"
            fetch="https://github.com/GrapheneOS/"
-           revision="refs/heads/13" />
+           revision="refs/tags/2024060600-coral" />
   <remote  name="grapheneos-gitlab"
            fetch="https://gitlab.com/grapheneos/"
-           revision="refs/heads/13" />
+           revision="refs/tags/2024060600-coral" />
   <default revision="refs/tags/android-13.0.0_r75"
            remote="aosp"
            sync-j="4" />
