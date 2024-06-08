@@ -3,6 +3,7 @@
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/"/>
   <remote name="grapheneos" fetch="https://github.com/GrapheneOS/" revision="refs/tags/2024060500"/>
   <remote name="grapheneos-gitlab" fetch="https://gitlab.com/grapheneos/" revision="refs/tags/2024060500"/>
+  <remote name="mraethel" fetch="https://github.com/mraethel/" revision="refs/tags/2024060500-mraethel"/>
   
   <default remote="aosp" revision="refs/tags/android-14.0.0_r35" sync-j="4"/>
   
@@ -1327,7 +1328,7 @@
   <project name="platform_packages_apps_LogViewer" path="packages/apps/LogViewer" remote="grapheneos" revision="e219a4aab884a0f935d43dfeba6a112679debf72" upstream="refs/tags/2024060500" dest-branch="refs/tags/2024060500" groups="pdk-fs"/>
   <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="grapheneos" revision="85a1ca48c9c4822325615dead35c215f2e9ec622" upstream="refs/tags/2024060500" dest-branch="refs/tags/2024060500" groups="pdk-fs"/>
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="grapheneos" revision="f8f54f83a46fe7aca7a289171b341b882aa3c20d" upstream="refs/tags/2024060500" dest-branch="refs/tags/2024060500" groups="apps_nfc,pdk-fs"/>
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="grapheneos" revision="0849c6f05cd63cd0a04aa3f488b58ddad45f75f4" upstream="refs/tags/2024060500" dest-branch="refs/tags/2024060500" groups="pdk-fs"/>
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="mraethel" revision="f21e8199195bb8da8f6b5b14c3c63eaf34967a0c" upstream="refs/tags/2024060500-mraethel" dest-branch="refs/tags/2024060500-mraethel" groups="pdk-fs"/>
   <project name="platform_packages_apps_SetupWizard2" path="packages/apps/SetupWizard2" remote="grapheneos" revision="a8ed1d77597a467289f10c69e227cda1db15a41b" upstream="refs/tags/2024060500" dest-branch="refs/tags/2024060500"/>
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="grapheneos" revision="fba213423831b7b8a78b516e6a4108a49d1dc261" upstream="refs/tags/2024060500" dest-branch="refs/tags/2024060500" groups="pdk-fs,sysui-studio"/>
   <project name="platform_packages_apps_Updater" path="packages/apps/Updater" remote="grapheneos" revision="1b982efa6e8e7ec6774aef5ea727f1e2f72b5833" upstream="refs/tags/2024060500" dest-branch="refs/tags/2024060500"/>
