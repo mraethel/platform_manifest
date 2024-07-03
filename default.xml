@@ -3,6 +3,7 @@
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/"/>
   <remote name="grapheneos" fetch="https://github.com/GrapheneOS/" revision="refs/tags/2024070201"/>
   <remote name="grapheneos-gitlab" fetch="https://gitlab.com/grapheneos/" revision="refs/tags/2024070201"/>
+  <remote name="mraethel" fetch="https://github.com/mraethel/" revision="refs/tags/2024070201-mraethel"/>
   
   <default remote="aosp" revision="refs/tags/android-14.0.0_r53" sync-j="4"/>
   
@@ -1336,7 +1337,7 @@
   <project name="platform_packages_apps_LogViewer" path="packages/apps/LogViewer" remote="grapheneos" revision="e219a4aab884a0f935d43dfeba6a112679debf72" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-fs"/>
   <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="grapheneos" revision="18282a3fb8fa8fd13f84f40857ab904645550747" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-fs"/>
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="grapheneos" revision="cd43e38a845d65f7661e9cfdb1ad14059ff7b43a" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="apps_nfc,pdk-fs"/>
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="grapheneos" revision="5eb1c33ee957d7468b2eab69012c7a3ceca8a245" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-fs"/>
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="mraethel" revision="546f9044674c43efc244ac6435c294efd349d8b9" upstream="refs/tags/2024070201-mraethel" dest-branch="refs/tags/2024070201-mraethel" groups="pdk-fs"/>
   <project name="platform_packages_apps_SetupWizard2" path="packages/apps/SetupWizard2" remote="grapheneos" revision="a8ed1d77597a467289f10c69e227cda1db15a41b" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201"/>
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="grapheneos" revision="4269e3c70db1d71c56cfdc0eeeaac9e857eda406" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-fs,sysui-studio"/>
   <project name="platform_packages_apps_Updater" path="packages/apps/Updater" remote="grapheneos" revision="3adc48ab48f674d5c84ccb45d615324ff81f3a9f" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201"/>
@@ -1348,7 +1349,8 @@
   <project name="platform_packages_modules_DnsResolver" path="packages/modules/DnsResolver" remote="grapheneos" revision="e6fc94068582126e112909252fbf330f97750301" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_HealthFitness" path="packages/modules/HealthFitness" remote="grapheneos" revision="321f46bfdf367d08326aa3055c625f36119adee1" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="grapheneos" revision="7f29d3e18c6fcd0048072978cffd4547fd9bfd21" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="platform_packages_modules_Permission" path="packages/modules/Permission" remote="grapheneos" revision="e371bd708359427d17e272b017a7cf950888ba76" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform_packages_modules_Permission" path="packages/modules/Permission" remote="mraethel" revision="e07994c0444b0b54861b11491182fd7100cdf933" upstream="refs/tags/2024070201-mraethel" dest-branch="refs/tags/2024070201-mraethel" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform_packages_services_PermissionLogger" path="packages/services/PermissionLogger" remote="mraethel" revision="156ca66c68add05006fb57f4a96d5b629472995c" upstream="refs/tags/2024070201-mraethel" dest-branch="refs/tags/2024070201-mraethel" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_RemoteKeyProvisioning" path="packages/modules/RemoteKeyProvisioning" remote="grapheneos" revision="e3aa9acf6f125f9b1478475602849ba7bfa43eab" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_Uwb" path="packages/modules/Uwb" remote="grapheneos" revision="4b7b7e4fc8e14949054cd24aa0e2e6a6a4c552b0" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="grapheneos" revision="aca50a9f9e23deabe0c5552f1cc716047e6d6e4c" upstream="refs/tags/2024070201" dest-branch="refs/tags/2024070201" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
